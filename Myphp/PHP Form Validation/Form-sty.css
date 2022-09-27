@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+}
+
+
+
+
+
+/* CSS */
+
+@media screen and (max-width: 550px) {
+
+    /*   ........................... evaluation page & report page  */
+
+    .welcomePageBackground {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .containerWelcome {
+        height: 960px;
+        width: 90%;
+    }
+
+    .containerWelcome2 {
+        height: 600px;
+        width: 90%;
+    }
+
+    select.empolyeeName {
+        width: 60%;
+    }
+
+    .button-55 {
+        width: 70%;
+    }
+
+    .employeeFormEval {
+
+        justify-content: start;
+        align-items: center;
+        font-size: large;
+
+    }
+
+
+
+
+
+    .containerRecomend {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        border: 3px black solid;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        
+        
+        font-family: 'DynaPuff', cursive;
+    }
+
+    #carousel-section {
+        display: none;
+    }
+
+    .row.align-items-center {
+        height: 85vh;
+    }
+
+
+
+    .border-Register2 {
+        width: 170%;
+        margin-left: -35%;
+
+    }
+
+}
+
+@media screen and (min-width:551px) and (max-width: 920px) {
+    .welcomePageBackground {
+
+        height: 900px;
+    }
+
+    .containerWelcome {
+        height: 880px;
+        width: 70%;
+    }
+
+
+
+    input.submitEvaluationForm2 {
+        width: 40%;
+        margin: 5% 0%;
+    }
+
+    .border-Register2 {
+        width: 160%;
+        margin-left: -35%;
+
+    }
+
+}
+
+
+@media(max-width:750px) {
+    #loginReg {
+        width: 80%;
+
+    }
+
+    #signUp {
+        width: 80%;
+    }
+
+}
+
+@media(max-width:440px) {
+    #loginReg {
+        width: 80%;
+
+    }
+
+    #signUp {
+        width: 80%;
+    }
+
+    .border-Register {
+        border: 1px solid black;
+        min-width: 80%;
+        min-height: 510px;
+        padding: 30px;
+        background-color: #cfacb2;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px 3px rgba(192, 192, 192, 0.589);
+    }
+
+}
+
+
+/*register styling */
+.sign-up {
+    background-color: rgb(225, 71, 71);
+    font-weight: bold;
+    border: black;
+    color: black;
+    border-radius: 80px;
+
+}
+.sign-up:hover {
+    background-color: rgb(0, 0, 0);
+
+}
+.h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.hide {
+    width: 20px;
+    height: 20px;
+}
+
+#carouselExampleSlidesOnly {
+    width: 100%;
+}
+
+.star {
+    color: red;
+}
+
+.border-Register {
+    border: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    min-height: 510px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.border-Register2 {
+    border: 1px solid white;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    width:80%;
+    margin-left:10%;
+    
+
+}
+
+.error {
+    color: red;
+}
+
+
+.register-section {
+    margin: 0 auto;
+
+}
+
+.landing-page{
+    border: 1px solid white;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    width:80%;
+    margin-left:10%;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.Login-landing{
+    background-color: rgb(46, 56, 235);
+    font-weight: bold;
+    border: black;
+    color: black;
+    border-radius: 100px;
+
+}
+
+.Login-landing:hover{
+    background-color: black;
+   
+}
